@@ -15,25 +15,25 @@
     <header class="header">
       <div class="conteiner">
         <nav class="header-nav">
-          <a href="./index.html" class="nav__logo">Web<span class="logo-span">Studio</span></a>
+          <a href="./index.html" class="nav__logo">Web<span class="nav__logo--color">Studio</span></a>
           <ul class="nav-links list">
-            <li class="nav-item"><a href="./index.html" class="nav-link nav-link--current">Студія</a></li>
-            <li class="nav-item"><a href="./portfolio.html" class="nav-link">Портфоліо</a></li>
-            <li class="nav-item"><a href="#" class="nav-link">Контакти</a></li>
+            <li class="nav-links__item"><a href="./index.html" class="nav-link nav-link--current">Студія</a></li>
+            <li class="nav-links__item"><a href="./portfolio.html" class="nav-link">Портфоліо</a></li>
+            <li class="nav-links__item"><a href="#" class="nav-link">Контакти</a></li>
           </ul>
         </nav>
         <ul class="nav-contacts list">
-          <li class="nav-contact__item">
+          <li class="nav-contacts__item">
             <a href="mailto:info@devstudio.com" class="nav-contact" >
-              <svg class="icon-mail">
+              <svg class="icon-mail" width="16" height="12">
                 <use href="./images/symbol-defs.svg#icon-mail">
               </svg>
               info@devstudio.com
             </a>
           </li>
-          <li class="item">
+          <li class="nav-contacts__item">
             <a href="tel:+380961111111" class="nav-contact">
-              <svg class="icon-telephone">
+              <svg class="icon-telephone" width="10" height="16">
                 <use href="./images/symbol-defs.svg#icon-telephone">
               </svg>
               +38 096 111 11 11
@@ -305,7 +305,7 @@
           </ul>
         </div>
       </section>
-      <section class="partners section">
+      <section class="partner section">
         <div class="conteiner">
           <h2 class="partner-title">Постійні клієнти</h2>
           <ul class="partner-list list">
@@ -389,12 +389,12 @@
               <textarea name="comment" class="form-input__comment" placeholder="Введіть текст"></textarea>
             </label>
             <label class="form-field form-checkbox">
-              <input type="checkbox" class="form-input__checkbox" name="policy">
+              <input type="checkbox" class="form-checkbox__input" name="policy">
               <span class="icon-span"></span>
               <p class="form-policy">Погоджуюся з розсилкою та приймаю <a href="#" class="form-link">Умови договору</a></p> 
             </label>
             <div class="modal-submit">
-              <button type="submit" class="modal-bnt__submit">Відправити</button>
+              <button type="submit" class="modal-submit__btn">Відправити</button>
             </div>
           </form>
         </div>
@@ -402,7 +402,7 @@
     </main>
     <footer class="footer">
       <div class="footer-conteiner conteiner">
-        <div class="first-footer">
+        <div class="footer-first">
           <a href="./index.html" class="footer-logo">Web<span class="footer-span">Studio</span></a>
           <address class="info">
             <ul class="footer-list list">
@@ -423,31 +423,31 @@
           </address>
         </div>
         <div class="social-footer">
-          <p class="social-title">Приєднуйтесь</p>
+          <p class="social-footer__title">Приєднуйтесь</p>
           <ul class="social-footer__list list">
             <li class="footer-list__item">
-              <a href="" class="footer-link">
+              <a href="" class="social-footer__link">
                 <Svg class="footer-inatagram" width="20" height="20">
                   <use href="./images/symbol-defs.svg#icon-instagram">
                 </Svg>
               </a>
             </li>
             <li class="footer-list__item">
-              <a href="" class="footer-link">
+              <a href="" class="social-footer__link">
                 <Svg class="footer-twitter" width="20" height="20">
                   <use href="./images/symbol-defs.svg#icon-twitter" >
                 </Svg>
               </a>
             </li>
             <li class="footer-list__item">
-              <a href="" class="footer-link">
+              <a href="" class="social-footer__link">
                 <Svg class="footer-facebook" width="20" height="20">
                   <use href="./images/symbol-defs.svg#icon-facebook">
                 </Svg>
               </a>
             </li>
             <li class="footer-list__item">
-              <a href="" class="footer-link" >
+              <a href="" class="social-footer__link" >
                 <Svg class="footer-linkedin" width="20" height="20">
                   <use href="./images/symbol-defs.svg#icon-linkedin">
                 </Svg>
@@ -459,9 +459,9 @@
           <p class="footer-mailing__title">Підпишіться на розсилку</p>
           <form class="form-mailing">
             <label class="footer-lable">
-              <input type="text" name="mailing" placeholder="E-mail" class="footer-mailing">
+              <input type="text" name="mailing" placeholder="E-mail" class="footer-mailing__form">
             </label>
-            <button type="submit" class="footer-btn">
+            <button type="submit" class="footer-mailing__btn">
               Підписатися
               <svg class="icon-send" width="24" height="24">
                 <use href="./images/symbol-defs.svg#icon-send">

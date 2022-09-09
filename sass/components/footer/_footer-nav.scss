@@ -2,51 +2,46 @@
   padding-top: 60px;
   padding-bottom: 60px;
   background-color: $background-color;
+  &-logo {
+    font-family: 'Raleway', sans-serif;
+    color: $second-color;
+    font-size: 26px;
+    line-height: 1.2;
+    text-decoration: none;
+
+    display: block;
+  }
+
+  &-span {
+    color: $white-color;
+  }
+  &-contact {
+    display: flex;
+    align-items: center;
+    color: $paragraph-color;
+    font-weight: 500;
+    font-size: 14px;
+    text-decoration: none;
+  }
+  &-first {
+    margin-right: 70px;
+  }
+  &-conteiner {
+    display: flex;
+    align-items: baseline;
+  }
 }
 .info {
   font-style: normal;
   margin-top: 20px;
 }
-.first-footer {
-  margin-right: 70px;
-}
-.footer-conteiner {
-  display: flex;
-  align-items: baseline;
-}
-.footer-logo {
-  font-family: 'Raleway', sans-serif;
-  color: $second-color;
-  font-size: 26px;
-  line-height: 1.2;
-  text-decoration: none;
-
-  display: block;
-}
-
-.footer-span {
-  color: $white-color;
-}
-
-.footer-list__items {
-  margin-top: 9px;
-}
-.footer-contact {
-  display: flex;
-  align-items: center;
-  color: $paragraph-color;
-  font-weight: 500;
-  font-size: 14px;
-  text-decoration: none;
-}
-
-.footer-list__item {
-  &:first-child {
-    margin-top: 0;
-  }
-}
 .footer-list {
   margin-top: -9px;
+  &__items {
+    &:not(:first-child) {
+      margin-top: 9px;
+    }
+  }
 }
 .google-map {
   font-size: 14px;
